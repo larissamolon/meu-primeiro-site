@@ -1,4 +1,15 @@
 body{
-    background-color: rgb(58, 9, 104);
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 80, 136);
+    font-family:sans-serif;
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.foto-perfil{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid black;
 }
