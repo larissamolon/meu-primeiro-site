@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(255, 255, 255);
-    color: rgb(16, 80, 136);
+    background-color: rgb(0, 0, 0);
+    color: rgb(135, 14, 14);
     font-family:sans-serif;
     display:flex;
     justify-content: center;
@@ -11,7 +11,7 @@ body{
     height: 200px;
     border-radius: 50%;
     margin-bottom: 10px;
-    border: 3px solid black;
+    border: 3px solid rgb(243, 239, 239);
 } 
 
 .container{
@@ -23,4 +23,34 @@ body{
 font-size: 1.5rem;
 margin-bottom: 5px;
 
+}
+
+.link{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-botao{
+    background-color: rgb(78, 10, 10);
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: backgruond-color 0.3s, transform 0.3s;
+}
+.link-botao i{
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.link-botao:hover{
+    background-color: rgb(161, 4, 4);
+    transform: translateY(-2px);
 }
